@@ -1,0 +1,41 @@
+2024-09-14 15:57:17.067  INFO 13360 --- [main] c.n.TerdiWaterSuppySchemeApplication     : Starting TerdiWaterSuppySchemeApplication using Java 1.8.0_172 on DESKTOP-T5ICMV5 with PID 13360 (E:\Sriman_Spring_Oct_2020\Program_Project_Practice\Terdi_Water_SuppyScheme\target\classes started by Admin in E:\Sriman_Spring_Oct_2020\Program_Project_Practice\Terdi_Water_SuppyScheme)
+2024-09-14 15:57:17.114  INFO 13360 --- [main] c.n.TerdiWaterSuppySchemeApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-09-14 15:57:18.187  INFO 13360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-14 15:57:18.215  INFO 13360 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-09-14 15:57:19.081  INFO 13360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-14 15:57:19.094  INFO 13360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-14 15:57:19.095  INFO 13360 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2024-09-14 15:57:19.680  INFO 13360 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2024-09-14 15:57:19.693  INFO 13360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-14 15:57:19.693  INFO 13360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2297 ms
+2024-09-14 15:57:19.924  INFO 13360 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Starting...
+2024-09-14 15:57:21.177  INFO 13360 --- [main] com.zaxxer.hikari.HikariDataSource       : database1 - Start completed.
+2024-09-14 15:57:21.270  INFO 13360 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-14 15:57:21.384  INFO 13360 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2024-09-14 15:57:21.699  INFO 13360 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-14 15:57:21.879  INFO 13360 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-09-14 15:57:22.159  INFO 13360 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-14 15:57:22.182  INFO 13360 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 15:57:22.293  WARN 13360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-14 15:57:22.943  INFO 13360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-09-14 15:57:22.957  INFO 13360 --- [main] c.n.TerdiWaterSuppySchemeApplication     : Started TerdiWaterSuppySchemeApplication in 6.733 seconds (JVM running for 8.371)
+2024-09-14 15:58:00.365  INFO 13360 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-14 15:58:00.366  INFO 13360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-14 15:58:00.368  INFO 13360 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-14 15:59:14.725  INFO 13360 --- [http-nio-8080-exec-7] com.nikhil.controller.users_controller   : login user method
+2024-09-14 15:59:14.725  INFO 13360 --- [http-nio-8080-exec-7] com.nikhil.service.users_service         : getLogin method
+2024-09-14 15:59:14.757  INFO 13360 --- [http-nio-8080-exec-7] com.nikhil.dao.users_dao                 : MemberBo method
+2024-09-14 16:00:40.565  INFO 13360 --- [http-nio-8080-exec-1] com.nikhil.controller.users_controller   : delete details method
+2024-09-14 16:00:40.566  INFO 13360 --- [http-nio-8080-exec-1] com.nikhil.service.users_service         : delete method
+2024-09-14 16:00:40.566  INFO 13360 --- [http-nio-8080-exec-1] com.nikhil.dao.users_dao                 : delete method
+2024-09-14 16:00:40.784  INFO 13360 --- [http-nio-8080-exec-2] com.nikhil.controller.users_controller   : delete details method
+2024-09-14 16:00:40.785  INFO 13360 --- [http-nio-8080-exec-2] com.nikhil.service.users_service         : delete method
+2024-09-14 16:00:40.785  INFO 13360 --- [http-nio-8080-exec-2] com.nikhil.dao.users_dao                 : delete method
+2024-09-14 16:00:40.990 ERROR 13360 --- [http-nio-8080-exec-2] com.nikhil.controller.users_controller   : delete error
+2024-09-14 16:01:43.082  INFO 13360 --- [http-nio-8080-exec-6] com.nikhil.controller.users_controller   : get Registration method
+2024-09-14 16:03:47.281  INFO 13360 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-14 16:03:47.844  INFO 13360 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-14 16:03:47.849  INFO 13360 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-09-14 16:03:48.032  INFO 13360 --- [RMI TCP Connection(17)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-14 16:03:48.226  INFO 13360 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : database1 - Shutdown initiated...
+2024-09-14 16:03:48.261  INFO 13360 --- [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : database1 - Shutdown completed.
